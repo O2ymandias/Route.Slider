@@ -1,0 +1,23 @@
+figure {
+    position: relative;
+}
+
+figure img {
+    cursor: pointer;
+}
+
+figcaption {
+    position: absolute;
+    width: 75%;
+    left: 12.5%;
+    bottom: 10px;
+}
+
+.lightbox__layer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.lightbox__layer i {
+    cursor: pointer;
+    font-size: 2rem;
+}
